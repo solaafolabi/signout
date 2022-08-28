@@ -39,6 +39,7 @@ CREATE TABLE `Administrator` (
 LOCK TABLES `Administrator` WRITE;
 /*!40000 ALTER TABLE `Administrator` DISABLE KEYS */;
 INSERT INTO `Administrator` VALUES ('admin','Admin','Admin','/images/admin.png','$2y$10$B9gGv1ohRO.KubkLY1gyGuwmc0.SNdBYMME8cYsuvVDpC6YdBwNny');
+INSERT INTO `Administrator` VALUES ('sola','Sola','Sola','/images/admin.png','admin');
 /*!40000 ALTER TABLE `Administrator` ENABLE KEYS */;
 UNLOCK TABLES;
 
