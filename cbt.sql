@@ -27,7 +27,7 @@ CREATE TABLE `Administrator` (
   `firstName` char(100) NOT NULL DEFAULT 'Admin',
   `lastName` char(100) NOT NULL DEFAULT 'Admin',
   `imageUrl` varchar(255) DEFAULT '/images/admin.png',
-  `pw` varchar(255) NOT NULL DEFAULT '$2y$10$B9gGv1ohRO.KubkLY1gyGuwmc0.SNdBYMME8cYsuvVDpC6YdBwNny',
+  `pw` varchar(255) NOT NULL DEFAULT 'admin',
   PRIMARY KEY (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
